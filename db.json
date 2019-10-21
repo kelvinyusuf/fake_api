@@ -111,19 +111,47 @@
         }
     },
     "profile_both": {
-        "challenge": [
-            {
-                "type": "No_Withdrawal",
-                "title": "No Withdrawal",
-                "description": "No Withdrawal",
-                "suffix": "Hari",
-                "image": "https://ajaib-app-dev-media-files.s3.amazonaws.com/uploads/challengemission/bfabcf4a-0b06-4c08-9a31-88f9cf78925b.jpg?AWSAccessKeyId=AKIAJX4GNBORBLT23XLA&Signature=7dLZYCyqgYNzuIfhuQ9nebhUvko%3D&Expires=1571396732",
-                "bronze": false,
-                "silver": false,
-                "gold": false,
-                "progress": 10,
-                "maximum_progress": 100
-            },
+        "created_at": "2019-10-14T17:17:17.666641Z",
+        "challenge": {
+            "challenge": [
+                {
+                    "type": "No_Withdrawal",
+                    "title": "No Withdrawal",
+                    "description": "No Withdrawal",
+                    "suffix": "Hari",
+                    "image": "https://ajaib-app-dev-media-files.s3.amazonaws.com/uploads/challengemission/bfabcf4a-0b06-4c08-9a31-88f9cf78925b.jpg?AWSAccessKeyId=AKIAJX4GNBORBLT23XLA&Signature=7dLZYCyqgYNzuIfhuQ9nebhUvko%3D&Expires=1571396732",
+                    "bronze": false,
+                    "silver": false,
+                    "gold": false,
+                    "progress": 10,
+                    "maximum_progress": 100
+                },
+                {
+                    "type": "Referred_Friend",
+                    "title": "Friend Referred",
+                    "description": "Referred Friend",
+                    "suffix": "Teman",
+                    "image": "https://ajaib-app-dev-media-files.s3.amazonaws.com/uploads/challengemission/c7398c26-e38e-4d68-985d-80a0f0775dea.jpg?AWSAccessKeyId=AKIAJX4GNBORBLT23XLA&Signature=pB5p84cO%2FyNgT%2FTwuQayOllANRU%3D&Expires=1571396732",
+                    "bronze": true,
+                    "silver": false,
+                    "gold": false,
+                    "progress": 100,
+                    "maximum_progress": 200
+                },
+                {
+                    "type": "Deposit_Count",
+                    "title": "Deposit Count",
+                    "description": "Deposit Count Total",
+                    "suffix": "Rupiah",
+                    "image": "https://ajaib-app-dev-media-files.s3.amazonaws.com/uploads/challengemission/0d9786cd-7fc0-49fe-bd2e-c270a869f717.jpg?AWSAccessKeyId=AKIAJX4GNBORBLT23XLA&Signature=JoExOmY0nzbw%2B257g6rcd1VTj%2FE%3D&Expires=1571396732",
+                    "bronze": true,
+                    "silver": true,
+                    "gold": false,
+                    "progress": 200,
+                    "maximum_progress": 300
+                }
+            ],
+            "finish_challenge": [
             {
                 "type": "Referred_Friend",
                 "title": "Friend Referred",
@@ -131,10 +159,10 @@
                 "suffix": "Teman",
                 "image": "https://ajaib-app-dev-media-files.s3.amazonaws.com/uploads/challengemission/c7398c26-e38e-4d68-985d-80a0f0775dea.jpg?AWSAccessKeyId=AKIAJX4GNBORBLT23XLA&Signature=pB5p84cO%2FyNgT%2FTwuQayOllANRU%3D&Expires=1571396732",
                 "bronze": true,
-                "silver": false,
-                "gold": false,
+                "silver": true,
+                "gold": true,
                 "progress": 100,
-                "maximum_progress": 200
+                "maximum_progress": 100
             },
             {
                 "type": "Deposit_Count",
@@ -144,35 +172,10 @@
                 "image": "https://ajaib-app-dev-media-files.s3.amazonaws.com/uploads/challengemission/0d9786cd-7fc0-49fe-bd2e-c270a869f717.jpg?AWSAccessKeyId=AKIAJX4GNBORBLT23XLA&Signature=JoExOmY0nzbw%2B257g6rcd1VTj%2FE%3D&Expires=1571396732",
                 "bronze": true,
                 "silver": true,
-                "gold": false,
-                "progress": 200,
-                "maximum_progress": 300
-            }
-        ],
-        "finish_challenge": [
-        {
-            "type": "Referred_Friend",
-            "title": "Friend Referred",
-            "description": "Referred Friend",
-            "suffix": "Teman",
-            "image": "https://ajaib-app-dev-media-files.s3.amazonaws.com/uploads/challengemission/c7398c26-e38e-4d68-985d-80a0f0775dea.jpg?AWSAccessKeyId=AKIAJX4GNBORBLT23XLA&Signature=pB5p84cO%2FyNgT%2FTwuQayOllANRU%3D&Expires=1571396732",
-            "bronze": true,
-            "silver": true,
-            "gold": true,
-            "progress": 100,
-            "maximum_progress": 100
-        },
-        {
-            "type": "Deposit_Count",
-            "title": "Deposit Count",
-            "description": "Deposit Count Total",
-            "suffix": "Rupiah",
-            "image": "https://ajaib-app-dev-media-files.s3.amazonaws.com/uploads/challengemission/0d9786cd-7fc0-49fe-bd2e-c270a869f717.jpg?AWSAccessKeyId=AKIAJX4GNBORBLT23XLA&Signature=JoExOmY0nzbw%2B257g6rcd1VTj%2FE%3D&Expires=1571396732",
-            "bronze": true,
-            "silver": true,
-            "gold": true,
-            "progress": 100,
-            "maximum_progress": 100
-        }]
+                "gold": true,
+                "progress": 100,
+                "maximum_progress": 100
+            }]
+        }
     }
   }
